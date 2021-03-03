@@ -16,30 +16,48 @@
     HEADER
   ----------------------------------->
 
-	<header class="bcs-header navbar navbar-expand-lg">
+	<header class="bcs-header">
+		<nav class="navbar navbar-expand-lg navbar-dark">
+			<a class="navbar-brand" href="index.html"><img src="images/gatch-logo.svg" alt="Georgia Tech Professional Education" class="header-logo"></a>
 
-			<h1 class="header-brand">
-				<a class="header-brand-link" href="#"><img src="images/gatch-logo.svg" alt="Georgia Tech Professional Education" class="header-logo"></a>
-			</h1>
-
-			<nav class="bcs-nav">
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-					<img src="images/icon-bell.svg" alt="Notification">
-				</button>
-				<div class="collapse navbar-collapse" id="navbarText">
-					<ul class="bcs-nav-list navbar-nav">
-						<li class="nav-item bcs-nav-link"><a href="#">Grades</a></li>
-						<li class="nav-item bcs-nav-link"><a href="#">Videos</a></li>
-						<li class="nav-item bcs-nav-link"><a href="#">Resources</a></li>
-						<li class="nav-item bcs-nav-icon">
-							<a href="#"><img src="images/icon-bell.svg" alt="Notification"></a>
-							<a href="#"><img src="images/icon-dollar.svg" alt="Bill"></a>
-							<a href="#"><img src="images/icon-question.svg" alt="Help"></a>
-							<a href="#"><img src="images/icon-user.svg" alt="User"></a>
-						</li>
-					</ul>
-				</div>
-			</nav>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto navbar-links">
+					<li class="nav-item">
+						<a class="nav-link" href="#">Grades</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Videos</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Resources
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="#">Resources 01</a>
+							<a class="dropdown-item" href="#">Resources 02</a>
+							<a class="dropdown-item" href="#">Resources 03</a>
+						</div>
+					</li>
+				</ul>
+				<ul class="navbar-nav navbar-icons">
+					<li class="nav-item">
+						<a href="#"><img src="images/icon-bell.svg" alt="Notification"></a>
+					</li>
+					<li class="nav-item">
+						<a href="#"><img src="images/icon-dollar.svg" alt="Bill"></a>
+					</li>
+					<li class="nav-item">
+						<a href="#"><img src="images/icon-question.svg" alt="Help"></a>
+					</li>
+					<li class="nav-item">
+						<a href="#"><img src="images/icon-user.svg" alt="User"></a>
+					</li>
+				</ul>
+			</div>
+		</nav>
 	</header>
 
 	<!----------------------------------
@@ -49,23 +67,145 @@
 	<section class="bcs-content bcs-index">
 
 			<!-- Sidebar -->
-			<aside>
+			<aside class="bcs-sidebar">
 				<h2 class="bcs-title">UX/UI Bootcamp</h2>
-				<p>Sidebar</p>
+				<ul class="nav nav-tabs" id="myTab" role="tablist">
+					<li class="nav-item">
+						<a class="nav-link active" id="home-tab" data-toggle="tab" href="#tab01" role="tab" aria-controls="home" aria-selected="true">Coursework</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id="profile-tab" data-toggle="tab" href="#tab02" role="tab" aria-controls="profile" aria-selected="false">Video</a>
+					</li>
+				</ul>
+				<div class="tab-content" id="myTabContent">
+					<div class="tab-pane fade show active" id="tab01" role="tabpanel" aria-labelledby="home-tab">
+						<ul class="bcs-course-list">
+							<!-- Course Item (Active) -->
+							<li class="active">
+								<a href="#">
+								<h3>1.2 User Research</h3>
+								<p>Saturday, September 00, 2021 | 00:00 PM ET</p>
+								</a>
+							</li>
+
+							<!-- Course Item -->
+							<li>
+								<a href="#">
+								<h3>1.3 Intro to Design Thinking</h3>
+								<p>Saturday, September 00, 2021 | 00:00 PM ET</p>
+								</a>
+							</li>
+
+							<!-- Course Item -->
+							<li>
+								<a href="#">
+								<h3>2.1 Synthesis, Definition, Ideation</h3>
+								<p>Saturday, September 00, 2021 | 00:00 PM ET</p>
+								</a>
+							</li>
+
+							<!-- Course Item -->
+							<li>
+								<a href="#">
+								<h3>2.2 Synthesis, Definition, Ideation</h3>
+								<p>Saturday, September 00, 2021 | 00:00 PM ET</p>
+								</a>
+							</li>
+
+							<!-- Course Item -->
+							<li>
+								<a href="#">
+								<h3>2.3 Synthesis, Definition, Ideation</h3>
+								<p>Saturday, September 00, 2021 | 00:00 PM ET</p>
+								</a>
+							</li>
+
+							<!-- Course Item -->
+							<li>
+								<a href="#">
+								<h3>3.1 Paper Prototyping & Testing</h3>
+								<p>Saturday, September 00, 2021 | 00:00 PM ET</p>
+								</a>
+							</li>
+
+							<!-- Course Item -->
+							<li>
+								<a href="#">
+								<h3>3.2 Paper Prototyping & Testing</h3>
+								<p>Saturday, September 00, 2021 | 00:00 PM ET</p>
+								</a>
+							</li>
+
+							<!-- Course Item -->
+							<li>
+								<a href="#">
+								<h3>3.3 Paper Prototyping & Testing</h3>
+								<p>Saturday, September 00, 2021 | 00:00 PM ET</p>
+								</a>
+							</li>
+
+							<!-- Course Item -->
+							<li>
+								<a href="#">
+								<h3>3.1 Paper Prototyping & Testing</h3>
+								<p>Saturday, September 00, 2021 | 00:00 PM ET</p>
+								</a>
+							</li>
+
+							<!-- Course Item -->
+							<li>
+								<a href="#">
+								<h3>3.2 Paper Prototyping & Testing</h3>
+								<p>Saturday, September 00, 2021 | 00:00 PM ET</p>
+								</a>
+							</li>
+
+							<!-- Course Item -->
+							<li>
+								<a href="#">
+								<h3>3.3 Paper Prototyping & Testing</h3>
+								<p>Saturday, September 00, 2021 | 00:00 PM ET</p>
+								</a>
+							</li>
+
+							<!-- Course Item (Past Item) -->
+							<li class="past">
+								<a href="#">
+								<h3>1.1 UX Research</h3>
+								<p>Saturday, September 00, 2021 | 00:00 PM ET</p>
+								</a>
+							</li>
+
+						</ul>
+
+					</div>
+					<div class="tab-pane fade" id="tab02" role="tabpanel" aria-labelledby="profile-tab">
+						<p>Video Content goes here</p>
+					</div>
+				</div>
 			</aside>
 
 			<!-- Main Content -->
-			<main>
-				<p>Main Content</p>
-
+			<main class="bcs-content">
+				<div class="container-fluid">
+					<section class="row">
+						<div class="col-md-8">
+							<p>Middle Content</p>
+						</div>
+						<div class="col-md-4">
+							<p>Right Content</p>
+						</div>
+					</section>
+				</div>
 			</main>
 	</section>
 
 	<!----------------------------------
     JAVA SCRIPT
   ----------------------------------->
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="js/bootstrap.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
 </body>
 
 </html>
