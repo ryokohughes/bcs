@@ -67,7 +67,9 @@ HEADER
 .navbar-nav {background: #0e2e52;}
 .navbar-links {padding-left: 20px;}
 .navbar-icons {padding-right: 20px;}
-.nav-item a, .navbar-dark .navbar-nav .nav-link {display: inline-block; color: #eeeeee; font-weight: 400; opacity: .9;}
+.nav-item a, .navbar-dark .navbar-nav .nav-link {display: inline-block; color: #eeeeee; font-size: 16px; font-weight: 400; opacity: .9;}
+.navbar-nav {background: #0e2e52;}
+.navbar-dark .navbar-nav .nav-link.current, .dropdown-item.current {color: #ffffff; background: #051220; opacity: 1; border-radius: .25rem;}
 .navbar-expand-lg .navbar-nav .nav-link {padding-right: .75rem; padding-left: .75rem;}
 .navbar-dark .navbar-toggler {margin-right: 15px; color: #eee; padding: .5rem; font-size: 1rem;}
 .navbar-icons .nav-item a {padding: 0 5px;}
@@ -204,6 +206,12 @@ main {flex-grow: 1;}
 /* ------------------------------
 MEDIA QUERIES
 ------------------------------ */
+
+@media screen and (max-width: 1199px) {
+	.col-border-left {border-left: none;}
+	.bcs-grade-box {padding: 15px 0;}
+}
+
 
 @media screen and (max-width: 1140px) {
 	.bcs-content .bcs-main {padding: 30px 15px 0;}
