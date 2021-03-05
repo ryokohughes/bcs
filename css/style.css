@@ -162,6 +162,8 @@ CONTENT
 	margin-bottom: 10px;
 }
 
+.col-leftpadding {padding-left: 60px;}
+
 /* --- MAIN ---- */
 
 .bcs-index02 {height: auto; min-height: calc(100vh - 60px);}
