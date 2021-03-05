@@ -59,6 +59,8 @@ HEADER
 	text-align: center;
 }
 
+.navbar-brand.old {width: 320px;}
+
 .header-logo {
 	height: 100%;
 	width: auto;
@@ -98,6 +100,8 @@ CONTENT
 	background:#ffffff;
 	box-shadow: 1px 1px 5px rgba(0,0,0,.05);
 }
+
+.bcs-sidebar.old {width: 320px;}
 
 .bcs-title {
 	margin: 15px 0 0;
@@ -139,7 +143,7 @@ CONTENT
 .bcs-course-list li:not(:last-child) {border-bottom: solid 1px #eeeeee;}
 .bcs-course-list li.active a {background: #ebf0f8;}
 .bcs-course-list li.past a {opacity: .5;}
-.bcs-course-list li h3 {margin: 0 0 5px; font-size: 16px; font-weight: 600;}
+.bcs-course-list li h3 {margin: 0 0 5px; font-size: 15px; font-weight: 600;}
 .bcs-course-list li p {margin: 0; color: #666666; font-size: 10px; line-height: 1em;}
 
 /* --- Version B ---- */
