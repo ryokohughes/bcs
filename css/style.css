@@ -203,6 +203,9 @@ main {flex-grow: 1;}
 	border-radius: .25rem;
 }
 
+.bcs-terms {text-align: center; }
+.bcs-top-border {margin-top: 30px; padding-top: 20px; border-top: solid 1px #dddddd;}
+
 /* ------------------------------
 MEDIA QUERIES
 ------------------------------ */
