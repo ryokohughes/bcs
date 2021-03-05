@@ -23,6 +23,7 @@ h3 {margin: 0 0 10px; font-size: 20px; font-weight: 600; color: #0e2e52;}
 h4 {margin: 0 0 5px; font-size: 26px; font-weight: 400; color: #333;}
 h5 {margin: 0 0 5px; font-size: 17px; font-weight: 600; color: #0e2e52;}
 main p, main ul {font-size: 14px; margin: 0 0 15px;}
+main ul {margin-bottom: 10px;}
 img {max-width: 100%;}
 a, a:link, a:visited, a:active {color: #235fb2; text-decoration: none; transition: all .5s ease;}
 a:hover {color: #3581ec; text-decoration: none;}
@@ -187,7 +188,18 @@ main {flex-grow: 1;}
 .bcs-class-desc p, .bcs-class-info li {font-size: 15px; line-height: 1.4em;}
 .bcs-btn-group {margin: 20px 0; padding-bottom: 10px;}
 .bcs-btn-group .btn {margin-right: 10px;}
-
+.card-grade {text-align: center;}
+.card-grade .card-text {padding-top: 5px; font-size: 26px;}
+.bcs-grade-box {padding: 15px;}
+.bcs-grade-img {width: 100px; margin-right: 20px;}
+.bcs-grade-comment {
+	background: #ffffff;
+	max-height: 460px;
+	padding: 15px;
+	overflow-y: auto;
+	border: 1px solid rgba(0,0,0,.125);
+	border-radius: .25rem;
+}
 
 /* ------------------------------
 MEDIA QUERIES
